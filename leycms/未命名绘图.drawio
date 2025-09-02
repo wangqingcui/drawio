@@ -218,8 +218,44 @@
         <mxCell id="yx7E_zJ9LgjwZuDfxwJx-11" value="调用echop" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1580" y="2520" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="yx7E_zJ9LgjwZuDfxwJx-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yx7E_zJ9LgjwZuDfxwJx-17" target="yx7E_zJ9LgjwZuDfxwJx-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="yx7E_zJ9LgjwZuDfxwJx-17" value="收到签署回调" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1370" y="2300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yx7E_zJ9LgjwZuDfxwJx-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yx7E_zJ9LgjwZuDfxwJx-18" target="yx7E_zJ9LgjwZuDfxwJx-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1310" y="2500.0000000000005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yx7E_zJ9LgjwZuDfxwJx-18" value="存记录表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1370" y="2400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yx7E_zJ9LgjwZuDfxwJx-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="yx7E_zJ9LgjwZuDfxwJx-22" target="yx7E_zJ9LgjwZuDfxwJx-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yx7E_zJ9LgjwZuDfxwJx-28" value="未锁定" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yx7E_zJ9LgjwZuDfxwJx-27">
+          <mxGeometry x="0.3083" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yx7E_zJ9LgjwZuDfxwJx-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yx7E_zJ9LgjwZuDfxwJx-22" target="yx7E_zJ9LgjwZuDfxwJx-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yx7E_zJ9LgjwZuDfxwJx-31" value="锁定" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yx7E_zJ9LgjwZuDfxwJx-30">
+          <mxGeometry x="0.2113" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yx7E_zJ9LgjwZuDfxwJx-22" value="判断订单是否锁定" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1360" y="2510" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yx7E_zJ9LgjwZuDfxwJx-26" value="更新字段" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1450" y="2620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yx7E_zJ9LgjwZuDfxwJx-29" value="不操作" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1290" y="2620" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
