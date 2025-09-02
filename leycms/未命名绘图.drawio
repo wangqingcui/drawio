@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="28.1.1">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="28.1.2">
   <diagram name="第 1 页" id="dMD3S8uEllPuPYDbf-0x">
-    <mxGraphModel dx="3043" dy="829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2286" dy="377" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -197,6 +197,29 @@
         </mxCell>
         <mxCell id="L6CNWs9GqjFhvrTvtn04-20" value="作废重新生成？" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
           <mxGeometry x="-460" y="2230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yx7E_zJ9LgjwZuDfxwJx-1" value="独立echop" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1580" y="2190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yx7E_zJ9LgjwZuDfxwJx-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yx7E_zJ9LgjwZuDfxwJx-3" target="yx7E_zJ9LgjwZuDfxwJx-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yx7E_zJ9LgjwZuDfxwJx-3" value="订单审批完成（审批通过）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1580" y="2300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yx7E_zJ9LgjwZuDfxwJx-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yx7E_zJ9LgjwZuDfxwJx-4" target="yx7E_zJ9LgjwZuDfxwJx-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1520" y="2490.0000000000005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yx7E_zJ9LgjwZuDfxwJx-4" value="定时任务生成合同（扫描未锁定状态下的订单）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1580" y="2400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yx7E_zJ9LgjwZuDfxwJx-11" value="调用echop" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1580" y="2520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yx7E_zJ9LgjwZuDfxwJx-17" value="收到签署回调" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1370" y="2300" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
