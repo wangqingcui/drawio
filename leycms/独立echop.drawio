@@ -251,7 +251,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="_LltgiQRJmm_qArRPXv--56" value="获取redis锁&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-2619.98" y="880" width="80" height="80" as="geometry" />
+          <mxGeometry x="-2619.98" y="890" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="_LltgiQRJmm_qArRPXv--57" value="结束" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-2641.98" y="1980" width="120" height="60" as="geometry" />
@@ -386,8 +386,19 @@
         <mxCell id="_LltgiQRJmm_qArRPXv--87" value="相关其他记录设置为不更新主表&lt;div&gt;创建echop记录&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-2623" y="400" width="182" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="_LltgiQRJmm_qArRPXv--101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_LltgiQRJmm_qArRPXv--92" target="_LltgiQRJmm_qArRPXv--102">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-2710" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="_LltgiQRJmm_qArRPXv--92" value="异步" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-2592" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_LltgiQRJmm_qArRPXv--102" value="同步shipto" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2870" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_LltgiQRJmm_qArRPXv--103" value="订单更新事件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2870" y="640" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
