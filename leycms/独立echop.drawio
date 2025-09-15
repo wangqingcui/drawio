@@ -366,7 +366,7 @@
         <mxCell id="_LltgiQRJmm_qArRPXv--86" value="订单状态是否为&lt;div&gt;审批通过&amp;amp;&amp;amp;ec审批通过&amp;nbsp;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-2603" y="190" width="142" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="_LltgiQRJmm_qArRPXv--87" value="相关记录设置为不更新主表&lt;div&gt;创建echop记录&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="_LltgiQRJmm_qArRPXv--87" value="相关其他记录设置为不更新主表&lt;div&gt;创建echop记录&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-2592" y="430" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
