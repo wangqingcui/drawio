@@ -386,10 +386,7 @@
         <mxCell id="_LltgiQRJmm_qArRPXv--87" value="相关其他记录设置为不更新主表&lt;div&gt;创建echop记录&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-2623" y="400" width="182" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_LltgiQRJmm_qArRPXv--89" value="定时任务扫描&lt;div&gt;审批通过&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-3030" y="50" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="_LltgiQRJmm_qArRPXv--92" value="结束" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="_LltgiQRJmm_qArRPXv--92" value="异步" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-2592" y="510" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
