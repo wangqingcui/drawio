@@ -394,11 +394,14 @@
         <mxCell id="_LltgiQRJmm_qArRPXv--92" value="异步" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-2592" y="510" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="_LltgiQRJmm_qArRPXv--106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_LltgiQRJmm_qArRPXv--102" target="_LltgiQRJmm_qArRPXv--105">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="_LltgiQRJmm_qArRPXv--102" value="同步shipto" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-2870" y="510" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_LltgiQRJmm_qArRPXv--103" value="订单更新事件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-2870" y="640" width="120" height="60" as="geometry" />
+        <mxCell id="_LltgiQRJmm_qArRPXv--105" value="更新订单状态 判断是否更新主表记录" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="-2870" y="680" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
